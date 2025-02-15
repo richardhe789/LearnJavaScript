@@ -1,2 +1,2 @@
-JAVASCRIPT LESSOSN!
+JAVASCRIPT LESSONS
 used javascript.info
