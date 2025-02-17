@@ -41,3 +41,45 @@
 //Both numbers are being taken in as strings, you can use alert(+a + +b); or Number casting
 
 // === is used to check equality without type conversion.
+
+//true, false, true, true, false, false, false
+// null ONLY EQUALS undefined
+
+// "?" works as a built-in if-else statement, most of the time ONLY USED TO ASSIGN A REsULT TO A VARIABLS
+// alert will be shown because although it is 0 it is contained within a string - just because it contains "0" does not mean its empty
+
+// let scriptName = prompt("What's the \"official\" name of JavaScript?")
+// if(scriptName == "ECMAScript")
+// {
+//     alert("Right!");
+// }
+// else
+//     alert("You don't know? ECMASCRIPT!");
+
+// let numberInput = prompt("Input a number!")
+// if(+numberInput > 0)
+// {
+//     alert(1);
+// }
+// else if(+numberInput < 0)
+// {
+//     alert(-1);
+// }
+// else if(+numberInput == 0)
+// {
+//     alert(0);
+// }
+
+//let result = (a+b < 4) ?  'Below': 'Over';  instantiate and do if/else on one line with "?"
+
+// let message = (login == 'Employee') ? 'Hello':
+//               (login == 'Director') ? 'Greetings' :
+//               (login == '') ? 'No login':
+//               '';
+
+// && returns the first falsy found or the last value if nothing is found
+
+// returns 2 b/c its the only truthy
+// alert(1) is done but nothing is returned then 2 is sent to the outer alert, since its a truthy then the statement ends
+
+//returns null b/c only needs one falsy to break everything - also first falsy found
